@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-qg41_6who5!%b12%58s7j=mm$=5_3#!w!=9yif&#f)fnr6mpa$
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-gbemisola23-boutiqueado-g81cdq3u1w.us2.codeanyapp.com', "localhost"]
+    '8000-gbemisola23-boutiqueado-g81cdq3u1w.us2.codeanyapp.com']
 
 # Application definition
 
@@ -91,7 +91,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/success'
+LOGIN_REDIRECT_URL = '/'
 
 
 WSGI_APPLICATION = 'boutiqueado.wsgi.application'
